@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Note, NoteFormValues } from "@/app/types/note.ts";
+import type { Note, NoteFormValues } from "@/types/note.ts";
 
 export interface FetchNotesResponse {
   notes: Note[];
