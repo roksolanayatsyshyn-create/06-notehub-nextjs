@@ -9,7 +9,7 @@ import { Pagination } from "@/components/Pagination/Pagination";
 import { Modal } from "@/components/Modal/Modal";
 import { NoteForm } from "@/components/NoteForm/NoteForm";
 
-import { fetchNotes } from "@/app/lib/api";
+import { fetchNotes } from "@/lib/api";
 import css from "./NotesPage.module.css";
 
 const PER_PAGE = 12;
